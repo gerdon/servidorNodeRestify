@@ -1,0 +1,14 @@
+{
+  "name": "servidornoderestify",
+  "version": "1.0.0",
+  "description": "\"\"\u001b[DServidor NodeJS usando Restify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gerdon Mafra",
+  "license": "ISC",
+  "dependencies": {
+    "restify": "^7.2.3"
+  }
+}
