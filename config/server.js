@@ -1,9 +1,10 @@
 const restify = require('restify');
-const server = restify.createServer();
 const bodyParser = require('body-parser');
 const port = 3000;
 
-server.use(bodyParser.json());
-server.use(bodyParser.urlencoded({extended: true}));
+const server = restify.createServer();
 
-module.exports = server, port;
+server.use(bodyParser.urlencoded({extended: true}));
+server.use(bodyParser.json());
+
+module.exports = {server, port};
