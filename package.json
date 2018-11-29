@@ -9,6 +9,7 @@
   "author": "Gerdon Mafra",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "restify": "^7.2.3"
   }
 }

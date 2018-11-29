@@ -1,7 +1,7 @@
 const server = require('./config/server').server;
 const port = require('./config/server').port;
-const route = require('./route/index.router');
+const router = require('./app/routes/routers');
 
-server.listen(port, (route) => {
-    console.log('O servidor está no ativo');
-})
+server.listen(port, router => {
+    console.log(`O servidor está no ativo na porta ${port}`);
+});
